@@ -2,7 +2,7 @@
   --bg-general-color: hsl(219, 59%, 86%);
   --font-family: "Outfit", sans-serif;
   --main-bg-color: hsl(0, 0%, 100%);
-  --color:hsl(220, 15%, 55%);
+  --color: hsl(220, 15%, 55%);
 }
 
 * {
@@ -15,7 +15,6 @@
 body {
   background-color: var(--bg-general-color);
   height: 50rem;
-  display: flex;
 }
 
 .main {
@@ -62,6 +61,7 @@ body {
 /* Positioning */
 
 body {
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
